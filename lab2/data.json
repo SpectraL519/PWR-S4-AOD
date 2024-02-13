@@ -1,0 +1,352 @@
+{
+    "ex1": {
+        "max_fuel": {
+            "c1": 275000,
+            "c2": 550000,
+            "c3": 660000
+        },
+        "fuel_demand": {
+            "a1": 110000,
+            "a2": 220000,
+            "a3": 330000,
+            "a4": 440000
+        },
+        "cost": {
+            "c1": {
+                "a1": 10,
+                "a2": 10,
+                "a3": 9,
+                "a4": 11
+            },
+            "c2": {
+                "a1": 7,
+                "a2": 11,
+                "a3": 12,
+                "a4": 13
+            },
+            "c3": {
+                "a1": 8,
+                "a2": 14,
+                "a3": 4,
+                "a4": 9
+            }
+        }
+    },
+
+    "ex2": {
+        "connections": {
+            "Warsaw": {
+                "Berlin": {
+                    "time": 6,
+                    "cost": 11
+                },
+                "Prague": {
+                    "time": 7,
+                    "cost": 2
+                },
+                "Bratislava": {
+                    "time": 6,
+                    "cost": 13
+                },
+                "Kyiv": {
+                    "time": 10,
+                    "cost": 1
+                }
+            },
+            "Berlin": {
+                "Warsaw": {
+                    "time": 6,
+                    "cost": 13
+                },
+                "Prague": {
+                    "time": 4,
+                    "cost": 1
+                },
+                "Vienna": {
+                    "time": 7,
+                    "cost": 17
+                },
+                "Bern": {
+                    "time": 9,
+                    "cost": 17
+                },
+                "Amsterdam": {
+                    "time": 6,
+                    "cost": 13
+                },
+                "Brussels": {
+                    "time": 7,
+                    "cost": 5
+                }
+            },
+            "Prague": {
+                "Warsaw": {
+                    "time": 7,
+                    "cost": 1
+                },
+                "Berlin": {
+                    "time": 4,
+                    "cost": 7
+                },
+                "Vienna": {
+                    "time": 3,
+                    "cost": 7
+                },
+                "Bratislava": {
+                    "time": 3,
+                    "cost": 8
+                }
+            },
+            "Bratislava": {
+                "Warsaw": {
+                    "time": 6,
+                    "cost": 8
+                },
+                "Prague": {
+                    "time": 3,
+                    "cost": 7
+                },
+                "Kyiv": {
+                    "time": 14,
+                    "cost": 6
+                },
+                "Vienna": {
+                    "time": 1,
+                    "cost": 1
+                }
+            },
+            "Kyiv": {
+                "Warsaw": {
+                    "time": 11,
+                    "cost": 8
+                },
+                "Bratislava": {
+                    "time": 14,
+                    "cost": 32
+                }
+            },
+            "Vienna": {
+                "Rome": {
+                    "time": 11,
+                    "cost": 29
+                },
+                "Bern": {
+                    "time": 8,
+                    "cost": 18
+                },
+                "Berlin": {
+                    "time": 7,
+                    "cost": 2
+                },
+                "Prague": {
+                    "time": 3,
+                    "cost": 4
+                },
+                "Bratislava": {
+                    "time": 1,
+                    "cost": 1
+                }
+            },
+            "Bern": {
+                "Rome": {
+                    "time": 9,
+                    "cost": 14
+                },
+                "Paris": {
+                    "time": 6,
+                    "cost": 10
+                },
+                "Berlin": {
+                    "time": 9,
+                    "cost": 10
+                },
+                "Vienna": {
+                    "time": 9,
+                    "cost": 24
+                }
+            },
+            "Rome": {
+                "Paris": {
+                    "time": 14,
+                    "cost": 16
+                },
+                "Bern": {
+                    "time": 9,
+                    "cost": 19
+                },
+                "Vienna": {
+                    "time": 11,
+                    "cost": 28
+                }
+            },
+            "Amsterdam": {
+                "Brussels": {
+                    "time": 2,
+                    "cost": 1
+                },
+                "Berlin": {
+                    "time": 6,
+                    "cost": 9
+                }
+            },
+            "Brussels": {
+                "Paris": {
+                    "time": 4,
+                    "cost": 4
+                },
+                "Berlin": {
+                    "time": 7,
+                    "cost": 21
+                },
+                "Amsterdam": {
+                    "time": 2,
+                    "cost": 1
+                }
+            },
+            "Paris": {
+                "Madrid": {
+                    "time": 13,
+                    "cost": 20
+                },
+                "Brussels": {
+                    "time": 4,
+                    "cost": 11
+                },
+                "Bern": {
+                    "time": 6,
+                    "cost": 2
+                },
+                "Rome": {
+                    "time": 14,
+                    "cost": 4
+                }
+            },
+            "Madrid": {
+                "Paris": {
+                    "time": 12,
+                    "cost": 20
+                }
+            }
+        },
+        "source": "Madrid",
+        "destination": "Kyiv",
+        "T": 40
+    },
+
+    "ex3": {
+        "min_no_cars": {
+            "d1": {
+                "s1": 2,
+                "s2": 4,
+                "s3": 3
+            },
+            "d2": {
+                "s1": 3,
+                "s2": 6,
+                "s3": 5
+            },
+            "d3": {
+                "s1": 5,
+                "s2": 7,
+                "s3": 6
+            }
+        },
+        "max_no_cars": {
+            "d1": {
+                "s1": 3,
+                "s2": 7,
+                "s3": 5
+            },
+            "d2": {
+                "s1": 5,
+                "s2": 7,
+                "s3": 10
+            },
+            "d3": {
+                "s1": 8,
+                "s2": 12,
+                "s3": 10
+            }
+        },
+        "min_per_district": {
+            "d1": 10,
+            "d2": 14,
+            "d3": 13
+        },
+        "min_per_shift": {
+            "s1": 10,
+            "s2": 20,
+            "s3": 18
+        }
+    },
+
+    "ex4": {
+        "m": 5,
+        "n": 5,
+        "k": 2,
+        "containers": {
+            "c0": [1, 1],
+            "c1": [1, 2],
+            "c2": [1, 4],
+            "c3": [2, 1],
+            "c4": [2, 5],
+            "c5": [3, 3],
+            "c6": [3, 5],
+            "c7": [4, 3],
+            "c8": [5, 3],
+            "c9": [5, 4],
+            "c10": [5, 5]
+        }
+    },
+
+    "ex5": {
+        "products": {
+            "p1": {
+                "price_per_kg": 9,
+                "material_cost": 4,
+                "max_weekly_demand": 400,
+                "kg_production_time":{
+                    "m1": 5, 
+                    "m2": 10,
+                    "m3": 6
+                }
+            },
+            "p2": {
+                "price_per_kg": 7,
+                "material_cost": 1,
+                "max_weekly_demand": 100,
+                "kg_production_time":{
+                    "m1": 3, 
+                    "m2": 6,
+                    "m3": 4
+                }
+            },
+            "p3": {
+                "price_per_kg": 6,
+                "material_cost": 1,
+                "max_weekly_demand": 150,
+                "kg_production_time":{
+                    "m1": 4, 
+                    "m2": 5,
+                    "m3": 3
+                }
+            },
+            "p4": {
+                "price_per_kg": 5,
+                "material_cost": 1,
+                "max_weekly_demand": 500,
+                "kg_production_time":{
+                    "m1": 4, 
+                    "m2": 2,
+                    "m3": 1
+                }
+            }
+        },
+        "machine_cost_per_hour": {
+            "m1": 2,
+            "m2": 2,
+            "m3": 3
+        },
+        "max_time": 3600
+    }
+}
